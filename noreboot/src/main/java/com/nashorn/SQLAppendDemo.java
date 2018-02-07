@@ -19,9 +19,9 @@ import java.util.Scanner;
  *         you can append some of them in javascript function and return them.
  *         <p>
  *         here use below function in the model.js:
- *         function allIds() {
- *         return "1,2,3,4,5,6";
- *         }
+ *         function appendConditions() {
+ *              return " or city = 'Perry'";
+ *          }
  *         now I want to add some ids such as "7,8",
  *         just change the string ids is fine.
  */
