@@ -7,9 +7,13 @@ function allIds() {
 }
 
 function appendConditions() {
-  return " or city = 'Perry'";
+    return " or city = 'Perry'";
 }
 
 function setUpEventStartDate() {
     return "20180215";
+}
+
+function getFilePath() {
+    return "/Users/i324779/myFramework/noreboot/noreboot/src/main/resources/model.js";
 }
