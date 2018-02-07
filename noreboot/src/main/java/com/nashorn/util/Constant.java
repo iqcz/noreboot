@@ -7,7 +7,7 @@ package com.nashorn.util;
 public final class Constant {
 
     /**
-     * Nashorn Engine load the language
+     * Nashorn engine load the language
      */
     public static final String LANGUAGE = "javascript";
 

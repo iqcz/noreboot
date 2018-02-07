@@ -19,8 +19,8 @@ public final class EngineLoadUtils {
     private EngineLoadUtils() {}
 
     /**
-     *
-     * @return
+     * load nashorn engine to run javascript
+     * @return javascript engine
      */
     public static ScriptEngine loadNashornEngine() {
         ScriptEngine engine = new ScriptEngineManager().getEngineByName(Constant.LANGUAGE);
