@@ -25,7 +25,7 @@ import java.util.Scanner;
  *         now I want to add some ids such as "7,8",
  *         just change the string ids is fine.
  */
-public class SQLAppendDemo {
+public class SQLAppend {
     public static void main(String[] args)
             throws FileNotFoundException, ScriptException, NoSuchMethodException {
     }
