@@ -56,7 +56,7 @@ public class EventDateDemo {
         String result = "";
         ScriptEngine engine = EngineLoadUtils.loadNashornEngine();
 
-        engine.eval(new FileReader(Constant.JAVASCRIPT_FUNCTION_PATH));
+        engine.eval(new FileReader(JAVASCRIPT_FUNCTION_PATH));
         if (engine instanceof Invocable) {
             Invocable in = (Invocable) engine;
             // execute javascript function in the model.js file.
