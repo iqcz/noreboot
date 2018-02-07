@@ -8,7 +8,6 @@ import javax.script.ScriptEngine;
 import javax.script.ScriptException;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.util.Scanner;
 
 /**
  * @author i324779
@@ -26,9 +25,6 @@ import java.util.Scanner;
  *         just change the string sql is fine.
  */
 public class SQLAppend {
-    public static void main(String[] args)
-            throws FileNotFoundException, ScriptException, NoSuchMethodException {
-    }
 
     /**
      * load function in model.js file to append sql conditions.
@@ -39,16 +35,16 @@ public class SQLAppend {
      */
     public static String appendConditions()
             throws FileNotFoundException, ScriptException, NoSuchMethodException {
-        String result = "";
+        String sqlConditions = "";
         ScriptEngine engine = EngineLoadUtils.loadNashornEngine();
 
         engine.eval(new FileReader(Constant.JAVASCRIPT_FUNCTION_PATH));
         if (engine instanceof Invocable) {
             Invocable in = (Invocable) engine;
             // execute javascript function in the model.js file.
-            result = (String) in.invokeFunction("appendConditions");
+            sqlConditions = (String) in.invokeFunction("appendConditions");
         }
 
-        return result;
+        return sqlConditions;
     } // end method appendConditions
 }
