@@ -56,7 +56,7 @@ public class DBDemo {
             String sql = "SELECT addr_id, street, city, state, country FROM ADDRESSES WHERE addr_id=?";
 
             try {
-                String appendConditions = SQLAppendDemo.appendConditons();
+                String appendConditions = SQLAppendDemo.appendConditions();
                 if (!Strings.isNullOrEmpty(appendConditions)) {
                     sql += appendConditions;
                 }

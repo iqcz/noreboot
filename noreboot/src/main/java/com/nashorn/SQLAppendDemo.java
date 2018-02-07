@@ -30,7 +30,14 @@ public class SQLAppendDemo {
             throws FileNotFoundException, ScriptException, NoSuchMethodException {
     }
 
-    public static String appendConditons()
+    /**
+     * load function in model.js file to append sql conditions.
+     * @return sql conditions.
+     * @throws FileNotFoundException
+     * @throws ScriptException
+     * @throws NoSuchMethodException
+     */
+    public static String appendConditions()
             throws FileNotFoundException, ScriptException, NoSuchMethodException {
         String result = "";
         ScriptEngine engine = EngineLoadUtils.loadNashornEngine();
@@ -43,5 +50,5 @@ public class SQLAppendDemo {
         }
 
         return result;
-    }
+    } // end method appendConditions
 }
