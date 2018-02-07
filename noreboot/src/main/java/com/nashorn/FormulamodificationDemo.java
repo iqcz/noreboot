@@ -1,11 +1,10 @@
 package com.nashorn;
 
-import com.nashorn.util.Constant;
+import static com.nashorn.util.Constant.*;
 import com.nashorn.util.EngineLoadUtils;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.nio.charset.Charset;
 import java.util.Scanner;
 import javax.script.Invocable;
 import javax.script.ScriptEngine;
@@ -43,7 +42,7 @@ public class FormulaModificationDemo {
                 int second = input.nextInt();
                 System.out.printf("Input number are: %d, %d%n", first, second);
 
-                engine.eval(new FileReader(Constant.JAVASCRIPT_FUNCTION_PATH));
+                engine.eval(new FileReader(JAVASCRIPT_FUNCTION_PATH));
                 if (engine instanceof Invocable) {
                     Invocable in = (Invocable) engine;
                     // execute javascript function in the model.js file.

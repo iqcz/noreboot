@@ -5,3 +5,7 @@ function formula(var1, var2) {
 function allIds() {
     return "1,2,3,4,5,6";
 }
+
+function appendConditions() {
+  return " or city = 'Perry'";
+}
