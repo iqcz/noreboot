@@ -9,3 +9,7 @@ function allIds() {
 function appendConditions() {
   return " or city = 'Perry'";
 }
+
+function setUpEventStartDate() {
+    return "20180215";
+}

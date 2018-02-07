@@ -18,7 +18,7 @@ import javax.script.ScriptException;
  *         <p>
  *         here use below function in the model.js:
  *         function formula(var1, var2) {
- *         return var1 + var2 + factor + 5;
+ *              return var1 + var2 + factor + 5;
  *         }
  *         if the constant 5 need be be change frequently,
  *         here is a good solution.
