@@ -8,6 +8,11 @@ Also you can use javascript to run Java code in Nashorn running environment.
 Here are some details.
 
 [Java Nashorn--Part 1](http://www.cnblogs.com/IcanFixIt/p/6387759.html)
+[Java Nashorn--Part 2](http://www.cnblogs.com/IcanFixIt/p/6390130.html)
+[Java Nashorn--Part 3](http://www.cnblogs.com/IcanFixIt/p/6391905.html)
+[Java Nashorn--Part 4](http://www.cnblogs.com/IcanFixIt/p/6403110.html)
+[Java Nashorn--Part 5](http://www.cnblogs.com/IcanFixIt/p/6407008.html)
+[Java Nashorn--Part 6](http://www.cnblogs.com/IcanFixIt/p/6408194.html)
 
 
 This project uses the feature that Java call javascript function by Nashorn enginee，
