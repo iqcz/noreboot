@@ -21,6 +21,11 @@ Here some usecase when use this feature.
 In all, now just use the return string info in function in javascript file, do kind of things.
 For more use case, I have been keeping investigating, and update this document later.
 
+The javascript file can be saved in the project, but when deployment set this file in a separate file path. 
+when every time changes, not forget to modify the file in the project and commit to github or gitlab.
+
+Use this feature in suitable scenario.
+
 > Note
 >
 > Not use Spring to load js file.
