@@ -1,6 +1,5 @@
 package com.nashorn;
 
-import com.nashorn.util.Constant;
 import com.nashorn.util.EngineLoadUtils;
 
 import javax.script.Invocable;

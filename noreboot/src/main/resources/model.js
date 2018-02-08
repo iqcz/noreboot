@@ -17,3 +17,7 @@ function setUpEventStartDate() {
 function getFilePath() {
     return "/Users/i324779/myFramework/noreboot/noreboot/src/main/resources/model.js";
 }
+
+function getJavaFullName() {
+    return "com.nashorn.entity.Person";
+}

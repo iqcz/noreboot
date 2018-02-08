@@ -1,6 +1,7 @@
 package com.nashorn;
 
-import com.nashorn.util.Constant;
+import static com.nashorn.util.Constant.JAVASCRIPT_FUNCTION_PATH;
+
 import com.nashorn.util.EngineLoadUtils;
 
 import javax.script.Invocable;
@@ -14,7 +15,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
 /**
  * @author i324779
@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
  *         <p>
  *         here use below function in the model.js:
  *         function getFilePath() {
- *              return "/Users/i324779/myFramework/noreboot/noreboot/src/main/resources/model.js";
+ *         return "/Users/i324779/myFramework/noreboot/noreboot/src/main/resources/model.js";
  *         }
  *         If you want to read diffrent content of file,
  *         just change the file path is fine.
@@ -38,10 +38,10 @@ public class FileParserDemo {
                 int number = input.nextInt();
 
                 String filePath = getFilePath();
-                System.out.printf("The path of file is %s%n.", filePath);
+                System.out.printf("The path of file is %s%n", filePath);
 
                 Path path = Paths.get(filePath);
-                List<String> contentOfFile =  Files.readAllLines(path);
+                List<String> contentOfFile = Files.readAllLines(path);
 
                 System.out.println(contentOfFile);
             }
@@ -63,7 +63,7 @@ public class FileParserDemo {
         String filePath = "";
         ScriptEngine engine = EngineLoadUtils.loadNashornEngine();
 
-        engine.eval(new FileReader(Constant.JAVASCRIPT_FUNCTION_PATH));
+        engine.eval(new FileReader(JAVASCRIPT_FUNCTION_PATH));
         if (engine instanceof Invocable) {
             Invocable in = (Invocable) engine;
             // execute javascript function in the model.js file.
