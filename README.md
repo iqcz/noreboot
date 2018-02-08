@@ -2,6 +2,10 @@
 Based on Nashorn engine to run javascript, and no need to restart application.
 
 About more infomation, please refer to http://openjdk.java.net/projects/nashorn/.
+Also you can use javascript to run Java code in Nashorn running environment.
+Here are some details.
+[Java Nashorn--Part 1](http://www.cnblogs.com/IcanFixIt/p/6387759.html)
+
 
 This project uses the feature that Java call javascript function by Nashorn enginee，
 when changes the function in javascript, do not need to restart the java application, 
