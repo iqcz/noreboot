@@ -10,7 +10,7 @@ or Java Web Server such as Tomcat, Jetty.
 This project is not demonstrated in Java Web environment. just use Scanner class to input data, 
 keep Java application running.
 
-here some usecase when use this feature.
+Here some usecase when use this feature.
 * hardcode some info.
 * append sql conditon statement.
 * set date for some event.
