@@ -1,5 +1,5 @@
 # noreboot
-based on Nashorn engine to run javascript, and no need to restart application.
+Based on Nashorn engine to run javascript, and no need to restart application.
 
 About more infomation, please refer to http://openjdk.java.net/projects/nashorn/.
 
