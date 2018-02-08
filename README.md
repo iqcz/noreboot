@@ -20,7 +20,7 @@ Here are some details.
 [Java Nashorn--Part 6](http://www.cnblogs.com/IcanFixIt/p/6408194.html)
 
 
-This project uses the feature that Java call javascript function by Nashorn enginee，
+This project uses the feature that Java call javascript function by Nashorn enginee,
 when changes the function in javascript, do not need to restart the java application, 
 or Java Web Server such as Tomcat, Jetty.
 
