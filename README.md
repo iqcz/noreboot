@@ -44,5 +44,7 @@ when every time changes, not forget to modify the file in the project and commit
 Use this feature in suitable scenario.
 
 > Note
->
-> Not use Spring to load js file.
+> DO NOT use below classpath file as parmeter for getFile method in Spring to load js.
+> `File cfgFile = ResourceUtils.getFile("classpath:config/static.properties");`
+> 
+
