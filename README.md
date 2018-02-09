@@ -45,6 +45,7 @@ Use this feature in suitable scenario.
 
 > Note
 > DO NOT use below classpath file as parmeter for getFile method in Spring to load js.
+>
 > `File cfgFile = ResourceUtils.getFile("classpath:config/static.properties");`
 > 
 
