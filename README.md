@@ -46,6 +46,9 @@ Use this feature in suitable scenario.
 > Note
 > DO NOT use below classpath file as parmeter for getFile method in Spring to load js.
 >
-> `File cfgFile = ResourceUtils.getFile("classpath:config/static.properties");`
+> `File cfgFile = ResourceUtils.getFile("classpath:config/model.js");`
+
+> After deployement, the file is copied to the dir(under the dir which server configures) in the server.
+> 
 > 
 
