@@ -48,7 +48,7 @@ Use this feature in suitable scenario.
 >
 > `File cfgFile = ResourceUtils.getFile("classpath:config/model.js");`
 >
-> After deployement, the file is copied to the dir(under the dir which server configures) in the server.
+> After deployement, the file is copied to the dir in the server or the dir is configured by server.
 > so just put it in a normal dir in a separate file path you can remember and records this in wiki for your project.
 > 
 
