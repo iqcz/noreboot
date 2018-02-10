@@ -24,7 +24,7 @@ import java.io.FileReader;
  *         now I want to add some sql query conditions,
  *         just change the string sql is fine.
  */
-public class SQLAppend {
+public class SqlAppend {
 
     /**
      * load function in model.js file to append sql conditions.
