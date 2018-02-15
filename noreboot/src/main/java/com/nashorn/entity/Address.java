@@ -9,6 +9,7 @@ import lombok.Data;
  * @date 07/02/2018
  * also can use Google AutoValue framework.
  */
+// TODO AutoValue
 @Data
 public class Address {
 
