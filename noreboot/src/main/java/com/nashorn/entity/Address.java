@@ -10,6 +10,8 @@ import lombok.Data;
  * also can use Google AutoValue framework.
  */
 // TODO AutoValue
+// https://github.com/google/auto
+// https://github.com/google/auto/tree/master/value
 @Data
 public class Address {
 
