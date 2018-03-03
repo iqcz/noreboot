@@ -8,10 +8,14 @@ import lombok.Data;
  * @author i324779
  * @date 07/02/2018
  * also can use Google AutoValue framework.
+ * refer to:
+ * https://github.com/google/auto
+ * https://github.com/google/auto/tree/master/value
+ * usage:
+ * https://github.com/google/auto/tree/master/value
  */
-// TODO AutoValue
-// https://github.com/google/auto
-// https://github.com/google/auto/tree/master/value
+
+
 @Data
 public class Address {
 
