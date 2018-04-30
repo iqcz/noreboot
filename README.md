@@ -34,6 +34,7 @@ Here some usecase when use this feature.
 * read file content.
 * Java reflection.
 * Formula calculation.
+* data summary.
 
 In all, now just use the return string info in function in javascript file, do kind of things.
 For more use case, I have been keeping investigating, and update this document later.
